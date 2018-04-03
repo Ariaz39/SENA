@@ -1,0 +1,38 @@
+.tabla{
+	width: 100%;	
+	border-collapse: collapse;
+    
+}
+
+.tabla th{
+	background-color: black;
+	border:1px dashed #d1c6ff;
+	padding: 20px 5px 10px 5px;
+	color: white;
+}
+
+.tabla td{
+	border:1px solid green;    
+ }
+
+/*.tabla tr{
+	background-color: yellow;
+}*/
+
+/* even=par y odd=impar
+*/
+.tabla tr:nth-child(even){
+	background-color: #efefef;
+}
+
+.tabla tr:nth-child(odd){
+	background-color: #d1c6ff;
+}
+.tx-c{
+	text-align: center;
+}
+.tablon{
+	height: 250px;
+	margin-top: 50px;
+	text-align: center;
+} 	

@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+}
+
+.cuad{
+	width:100%;
+	height:400px;
+	float: left;
+}
+
+.cuadro2{
+	width: 50%; 
+	height:200px;
+	float: left;
+	transition:All 1s linear;
+	-webkit-transition:All 0.500s linear;
+	transform:translate(10px);
+	-webkit-transform:scale(1) translate(10px);
+}
+
+.cuadro2:hover{
+	transform: translate(-300px);
+	-webkit-transform: scale(0.500) translate(-300px);
+}
+
+.cuadro3{
+	width: 50%; 
+	height:200px;
+	float: left;
+	transition:All 1s linear;
+	-webkit-transition:All 0.500s linear;
+	transform: scale(1) translate(10px);
+	-webkit-transform: scale(1) translate(10px);
+}
+
+.cuadro3:hover{
+	transform: translate(-300px);
+	-webkit-transform: scale(0.500) translate(300px);
+}
+
+.cuadro4 {
+	width: 33.3%; 
+	height:200px;
+	float: left;
+	transition:All 1s linear;
+	-webkit-transition:All 1s linear;
+	transform: scale(1);
+	-webkit-transform: scale(1	);
+}
+
+.cuadro4:hover{
+	transform: rotate(360deg) scale(0.8);
+	-webkit-transform: rotate(360deg) scale(0.8);
+}
+
+.cuadro5{
+	width: 33.3%; 
+	height:200px;
+	float: left;
+	transition:All 1s linear;
+	-webkit-transition:All 0.500s linear;
+	transform: scale(1) translateY(0px);
+	-webkit-transform: scale(1) translateY(0px);
+}
+
+.cuadro5:hover{
+	transform: translateY(-300px);
+	-webkit-transform: scale(0.800) translateY(100px);
+}
+
+.cuadro6 {
+	width: 33.3%; 
+	height:200px;
+	float: left;
+	transition:All 1s linear;
+	-webkit-transition:All 1s linear;
+	transform: scale(1) 
+	-webkit-transform: scale(1);
+}
+
+.cuadro6:hover{
+	transform: rotate(-360deg) scale(0.8);
+	-webkit-transform: rotate(-360deg) scale(0.8);
+	}

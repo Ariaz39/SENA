@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/liquidacion.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Liquidacion Seguridad Social</title>
+</head>
+<body>
+	<div class="cuadro">
+		<div class="sub1"><h1>Liquidacion Seguridad Social</h1></div>
+		<div class="sub2">
+			<div class="subm1"><label>Empleado:</label>
+				<input type="text" name="nombres" placeholder="Nombres y Apellidos" size="30" id="nombres" pattern="[A-Za-z]" autofocus="autofocus" 
+				title="Letras y números. Tamaño mínimo: 5. Tamaño máximo: 40" minlength="10" maxlength="40" required="required"></div>
+			<div class="subm2"><label>Dias Laborados:</label>
+				<input type="number" name="Diasl" min="1" max="30" id="diasl" placeholder="1-30"></div>
+		</div>
+		<div class="sub3">
+			<div class="subm1">
+				<label>Salario:</label>
+				<input type="number" name="salario" maxlength="7" min="781242" step="10000" id="salario" placeholder="SMLV = $781.242" pattern="[0,9]+" required="required" 
+				title="Solo números sin signos de puntuación">
+			</div>
+			<div class="subm2">
+				<label>Fecha Inicio:</label>
+				<input type="date" name="FechaI" id="fechai" min="2015-12-31" max="2018-12-31">
+			</div>
+		</div>
+		<div class="sub4">
+			<div class="subm1">
+				<label>Fecha Final:</label>
+				<input type="date" name="FechaF" id="fechaf">
+			</div>
+			<div class="subm2">
+				<label>Tipo de Riesgo:</label>
+				<select id="triesgo">
+					<option value="">Seleccionar</option>
+					<option value="1">Nivel I</option>
+					<option value="2">Nivel II</option>
+					<option value="3">Nivel III</option>
+					<option value="4">Nivel IV</option>
+					<option value="5">Nivel V</option>
+				</select>
+			</div>
+		</div>
+		<div class="sub5">
+			<div class="subm1 vacio"></div>
+			<div class="subm2">
+				&emsp;
+				<input type="button" onclick="window.location.reload()" value="Borrar" class="boton" />
+				&emsp;&emsp;&emsp;
+				&emsp;
+				&emsp;
+				<input type="button" onclick="liquidar()" value="Liquidar =)" class="boton"/>		
+			</div>
+		</div>
+		<div class="sub6">
+			<div id="tabla"></div>
+		</div>
+	
+	</div>
+
+<script src="js/liquidacion.js"></script>
+</body>
+</html>
+
+

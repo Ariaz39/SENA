@@ -1,0 +1,185 @@
+h2 {
+	color: red;
+	font-size: 60px;				
+}
+p {
+	color: #0000ff69;
+	font-weight: bolder;
+	font-size: 200%;
+	text-decoration: underline; /*subraya el texto*/
+	font-family: cursive;
+	text-align: justify;
+	padding: 10px;/*comentario*/
+	background-color: #ff000078; 
+}
+body{
+	background-color: gray; 
+}
+
+a {     color: #3b5998;     background-color: transparent;     text-
+decoration: none; }
+
+a:hover {
+
+	color: green;
+	background-color: transparent;
+	text-decoration: none; 
+
+}
+
+a:visited {
+	color: pink;
+	background-color: transparent;
+	text-decoration: none; 
+}
+
+.imagen1{
+	width:400px;
+	height:300px;
+}
+
+.imagen2{
+	width:800px;
+	height:800px;
+}
+
+
+#imagen1{
+	width: 500px;
+	height: 500px;
+}
+
+#caja{
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	background-image: url('../img/h2r.png');
+}
+/*3 Cajas*/
+.ml-1{
+	margin-left: 1%;
+}
+.mt-1{
+	margin-top: 1%;
+}
+.caja17{
+	width: 48%;
+	height: 500px;
+	border: 1px solid black;
+	border-radius: 50px;
+	background-color: blue;
+	float: left;
+}
+#caja18{
+	width: 100%;
+	height: 500px;
+	border: 1px solid black;
+	border-radius: 50px;
+	background-color: yellow;
+	float: left;
+}
+
+.ml-1 {
+	margin-left: 1%;
+}
+
+.mt-1 {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.caja1{
+	width: 48%;
+	height: 500px;
+	border: 1px solid red;
+	border-radius: 50px;
+	background-color: black;
+	float:left;
+
+}
+
+#caja2{
+	width: 100%;
+	height: 500px;
+	border: 1px solid red;
+	border-radius: 50px;
+	background-color: black;
+	float: left;
+}
+
+.caja3{
+	width: 32%;
+	height: 500px;
+	border: 1px solid red;
+	background-color: black;
+	float: left;
+}
+
+.mt-2{
+	margin-top: 1%;
+}
+
+.ml-2{
+	margin-left: 1%;
+}
+
+.ml-3{
+	margin-left: 1%;
+}
+
+#caja4{
+	width: 70%;
+	height: 350px;
+	border: 1px solid red;
+	background-color: black;
+	float: left;
+}
+
+.ml-4{
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+.caja5{
+	width: 13%;
+	height: 350px;
+	border: 1px solid red;
+	background-color: black;
+	float: left;
+}
+
+.ml-5{
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.caja6{
+	width: 13%;
+	height: 350px;
+	border: 1px solid red;
+	background-color: black;
+	float: left;
+}
+
+.ml-6{
+	margin-left: 15%;
+}
+
+.caja7{
+	width: 40%;
+	height: 500px;
+	border: 1px solid red;
+	border-radius: 100%;
+	background-color: black;
+	float: left;
+}
+
+.caja8{
+	width: 40%;
+	height: 500px;
+	border: 1px solid red;
+	border-radius: 100%;
+	background-color: black;
+	float: left;
+}

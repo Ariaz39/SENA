@@ -1,0 +1,12 @@
+4 Formatos de Colores
+
+1. nombre en ingles ejm: red
+
+2. hexadecimal ejm: #fff0f1
+
+3. rgb (red-green-blue) ejm: rgb(1,5,8)
+
+4. rgba (red-green-blue-alpha=TRANSPARENCIA) 
+	ejm: rgba(1,5,4,0.5)
+
+	

@@ -1,0 +1,13 @@
+.fon1{
+
+	border:10px dashed red;
+}
+.cuchara:active{
+	background: red;
+	transform: rotate(0deg) scale(0.447) skew(-2deg) translate(-3px);
+-webkit-transform: rotate(0deg) scale(0.447) skew(-2deg) translate(-3px);
+-moz-transform: rotate(0deg) scale(0.447) skew(-2deg) translate(-3px);
+-o-transform: rotate(0deg) scale(0.447) skew(-2deg) translate(-3px);
+-ms-transform: rotate(0deg) scale(0.447) skew(-2deg) translate(-3px);
+border:2px solid green;
+}

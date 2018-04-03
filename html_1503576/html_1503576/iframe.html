@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iFrame</title>
+	<style type="text/css">
+		.i1{
+			width: 700px;
+			height: 400px;
+			border-radius: 10px;
+			border:10px dashed lime;
+			margin-left: 25%;
+		}
+		.i2{
+			width: 700px;
+			height: 400px;
+			border-radius: 10px;
+			border:10px solid red;
+			margin-left: 25%;
+			margin-top: 100px;
+		}
+		body{
+			background: gray;
+		}
+		div{
+			width: 300px;
+			height: 160px;
+			border:7px solid yellow;
+			margin-left: 45%;
+			background: blue;
+			font-size: 50px;
+			font-family: verdana;
+			color: orange;
+			text-align: center;
+			font-weight: bolder;
+			margin-top: 60px;
+			transform: rotate(191deg) scale(0.668) skew(-28deg) translate(52px);
+			-webkit-transform: rotate(-30deg) scale(0.668) skew(-28deg) translate(52px);
+			-moz-transform: rotate(191deg) scale(0.668) skew(-28deg) translate(52px);
+			-o-transform: rotate(191deg) scale(0.668) skew(-28deg) translate(52px);
+			-ms-transform: rotate(191deg) scale(0.668) skew(-28deg) translate(52px);
+			transition:All 1s linear;
+			-webkit-transition:All 1s linear;
+			
+
+		}
+		div:hover{
+			transform: rotate(360deg);
+			-webkit-transform: rotate(360deg);
+			transition:All 1s linear;
+			-webkit-transition:All 1s linear;
+		}
+		div:active{
+
+		}
+	</style>
+</head>
+<body>
+
+	<iframe src="tablas.html" class="i1"><!--scrolling:"no"--></iframe>
+	<iframe src="http://oferta.senasofiaplus.edu.co/sofia-oferta/" class="i2"></iframe>
+	<div>Venga le digo mk</div>
+
+</body>
+</html>
